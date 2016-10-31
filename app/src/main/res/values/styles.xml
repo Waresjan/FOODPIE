@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--自定义标题   将原有的标题取消,进入清单文件-->
+    <style name="CustomTitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTitleSize">50dp</item>
+    </style>
+</resources>
