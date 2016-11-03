@@ -38,7 +38,7 @@
             android:layout_weight="1"
             android:drawableTop="@drawable/ic_tab_homepage"
             android:button="@null"
-            android:text="狂吃"
+            android:text="逛吃"
             android:gravity="center"/>
 
         <RadioButton

@@ -16,7 +16,7 @@ public class MainAdapter extends FragmentPagerAdapter{
     }
 
     ArrayList<Fragment>fragments;
-    String[]strings = {"食物百科","狂吃","我的"};
+    String[]strings = {"食物百科","逛吃","我的"};
 
     public MainAdapter(FragmentManager fm) {
         super(fm);

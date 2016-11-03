@@ -4,7 +4,6 @@ import android.app.Application;
 import android.content.Context;
 
 /**
- * Created by ChenFengYao on 2016/10/24.
  * !!!!!!写完 MyApp 一定 一定 一定 要注册!!!!
  *
  */

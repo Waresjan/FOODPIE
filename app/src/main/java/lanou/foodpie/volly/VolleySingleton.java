@@ -10,6 +10,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 
+import lanou.foodpie.R;
+
 /**
  * Created by ChenFengYao on 2016/10/24.
  */

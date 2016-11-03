@@ -27,7 +27,7 @@
                     android:id="@+id/library_title_iv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/img_home_default"
+                    android:src="@mipmap/ic_home_logo"
                     android:layout_margin="15dp"
                     android:layout_centerHorizontal="true"/>
 
@@ -50,7 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableLeft="@mipmap/ic_home_search"
-                    android:background="@mipmap/ic_home_search"
+                    android:background="#f5f5f5"
                     android:hint="请输入食物名称"
                     android:layout_centerVertical="true"
                     android:layout_margin="10dp" />
@@ -61,7 +61,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_alignParentBottom="true"
-                    android:background="ic_home_category_bg.9.png">
+                    android:background="@mipmap/ic_home_category_bg">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="ic_home_category_bg.9.png">
+                android:background="#f1f5f7">
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -118,7 +118,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:background="#f5f5f5" />
+                        android:background="@mipmap/ic_home_category_bg" />
 
                     <TextView
                         android:layout_centerHorizontal="true"
@@ -152,7 +152,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:background="#f5f5f5" />
+                        android:background="@mipmap/ic_home_category_bg" />
 
                     <TextView
                         android:layout_centerHorizontal="true"
@@ -188,7 +188,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:background="#f5f5f5"
+                        android:background="@mipmap/ic_home_category_bg"
                         />
 
                     <TextView

@@ -16,6 +16,7 @@ import lanou.foodpie.R;
 import lanou.foodpie.eat.delicacy.DelicacyFragment;
 import lanou.foodpie.eat.home.HomeFragment;
 import lanou.foodpie.eat.index.IndexFragment;
+import lanou.foodpie.eat.knowledge.KnowledgeFragment;
 
 /**
  * Created by dllo on 16/10/31.

@@ -1,32 +1,31 @@
 package lanou.foodpie;
 
 
-import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.RadioButton;
 
+import lanou.foodpie.base.BaseAty;
 import lanou.foodpie.eat.EatFragment;
 import lanou.foodpie.homepage.HomepageFragment;
 import lanou.foodpie.main.MineFragment;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends BaseAty implements View.OnClickListener {
 
     private RadioButton tabHomePage,tabEat,tabMine;
     private FragmentManager manager;
     private FragmentTransaction transaction;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        initViews();
 
+
+    @Override
+    protected int setLayout() {
+        return R.layout.activity_main;
     }
 
-    private void initViews() {
+    @Override
+    protected void initView() {
         tabHomePage = (RadioButton) findViewById(R.id.homepage);
         tabEat = (RadioButton) findViewById(R.id.eat);
         tabMine = (RadioButton) findViewById(R.id.mine);
@@ -41,6 +40,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tabEat.setOnClickListener(this);
         tabMine.setOnClickListener(this);
     }
+
+    @Override
+    protected void initData() {
+
+    }
+
 
     @Override
     public void onClick(View v) {
