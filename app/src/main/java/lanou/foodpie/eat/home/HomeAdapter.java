@@ -47,7 +47,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
         String url2 = arrayList.get(position).getCard_image();
 
 
-        Picasso.with(mContext).load(url1).into(holder.imageView1);
+        Picasso.with(mContext).load(url2).into(holder.imageView1);
         Picasso.with(mContext).load(url1).into(holder.imageView2);
 
 
@@ -58,7 +58,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
 
         holder.textView1.setText(Text1);
         holder.textView2.setText(Text2);
-        holder.textView3.setText(Text3);
+//       holder.textView3.setText(Text3);
 
     }
 

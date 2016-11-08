@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
@@ -26,15 +27,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@mipmap/ic_my_setting"
+                android:background="#Ea9561"
                 android:layout_marginLeft="65dp"
                 />
 
 
         </LinearLayout>
-<ImageView
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:src="@mipmap/ic_analyse_default"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_analyse_default"
+            android:background="@null"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:text="点击登录"
+            android:textColor="#f5f5f5"/>
+
 
     </LinearLayout>
 
@@ -59,9 +74,9 @@
             />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
             android:background="@mipmap/ic_arrow_right_default"/>
     </LinearLayout>
 
@@ -87,9 +102,9 @@
             />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
             android:background="@mipmap/ic_arrow_right_default"/>
     </LinearLayout>
 
@@ -115,9 +130,9 @@
             />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
             android:background="@mipmap/ic_arrow_right_default"/>
     </LinearLayout>
 
@@ -143,9 +158,9 @@
             />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
             android:background="@mipmap/ic_arrow_right_default"/>
     </LinearLayout>
     <FrameLayout

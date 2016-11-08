@@ -1,5 +1,6 @@
 package lanou.foodpie.eat.index;
 
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
@@ -19,7 +20,7 @@ import lanou.foodpie.volly.VolleySingleton;
  */
 public class IndexFragment extends BaseFragment {
 
-    private RecyclerView recyclerView;
+    private RecyclerView recyclerView2;
 
     @Override
     protected int setLayout() {
@@ -28,7 +29,7 @@ public class IndexFragment extends BaseFragment {
 
     @Override
     protected void initView() {
-        recyclerView = bindView(R.id.index_recyclerview);
+        recyclerView2 = bindView(R.id.index_recyclerview);
     }
     @Override
     protected void initData() {
@@ -53,9 +54,17 @@ public class IndexFragment extends BaseFragment {
 private void getRecyclerView(IndexBean response){
     ArrayList<IndexBean.FeedsBean>arrayList =
             (ArrayList<IndexBean.FeedsBean>)response.getFeeds();
+
     IndexAdapter adapter = new IndexAdapter(getActivity());
     adapter.setAdapter(arrayList);
-    recyclerView.setAdapter(adapter);
+    recyclerView2.setAdapter(adapter);
+
+    LinearLayoutManager manager = new LinearLayoutManager(getActivity());
+    recyclerView2.setLayoutManager(manager);
+//    StaggeredGridLayoutManager manager =
+//            new StaggeredGridLayoutManager
+//                    (1,StaggeredGridLayoutManager.VERTICAL);
+//    recyclerView.setLayoutManager(manager);
 
 }
 
