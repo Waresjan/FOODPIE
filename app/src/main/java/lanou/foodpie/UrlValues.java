@@ -9,4 +9,5 @@ public  static final String KNOWLEDGE_URL = "http://food.boohee.com/fb/v1/feeds/
 public static final String HOME_URL = "http://food.boohee.com/fb/v1/feeds/category_feed?page=1&category=1&per=10";
 public static final String INDEX_URL = "http://food.boohee.com/fb/v1/feeds/category_feed?page=1&category=2&per=10";
 public static final String DELICACY_URL = "http://food.boohee.com/fb/v1/feeds/category_feed?page=1&category=4&per=10";
+public static final String POPMBEAN_URL = "http://food.boohee.com/fb/v1/foods/sort_types";
 }

@@ -12,12 +12,30 @@
         <activity android:name=".MainActivity"
             android:theme="@style/CustomTitle"
             android:label="ExpandTextView">
+
+        </activity>
+
+        <activity android:name=".StartActivity">
+
+        </activity>
+
+        <activity android:name=".login.LoginActivity">
+
+        </activity>
+
+
+        <activity android:name=".login.SetUpActivity"/>
+
+
+        <activity android:name=".second.SecondActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

@@ -24,6 +24,7 @@ public class MainActivity extends BaseAty implements View.OnClickListener {
         return R.layout.activity_main;
     }
 
+
     @Override
     protected void initView() {
         tabHomePage = (RadioButton) findViewById(R.id.homepage);
@@ -45,6 +46,7 @@ public class MainActivity extends BaseAty implements View.OnClickListener {
     protected void initData() {
 
     }
+
 
 
     @Override
